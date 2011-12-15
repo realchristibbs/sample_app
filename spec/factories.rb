@@ -1,0 +1,7 @@
+# use ':user' to get factory girl to simulate the User model
+Factory.define :user do |user|
+	user.name				"Chris Tibbs"
+	user.email 			"tibbs.17@gmail.com"
+	user.password		"har1py4"
+	user.password_confirmation "har1py4"
+end
